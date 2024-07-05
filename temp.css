@@ -1,0 +1,37 @@
+body {
+    color: black;
+    font-family: 'Arial';
+    background-color:aqua;
+    text-align: center;
+}
+.h1{
+    font-family:Georgia;
+}
+.container{
+    max-width: 1000x;
+    max-height: 700px;;
+    background: rgb(247, 246, 246) ;
+    border-radius: 8px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 0x 5px rgba(0,0,0,0.4);
+    font-family:  'Lucida Sans' ;
+    text-align: center;
+    padding: 40px;
+}
+
+input, select{
+    text-align: left; 
+    height: 40px; 
+    width: 250px;
+    cursor: pointer;
+}
+#convert {
+    font-weight: bold;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    background: rgb(135, 240, 114);
+}
+#result {
+    color: black;
+}
